@@ -1,6 +1,28 @@
 
 == README
 
+Last error before deploying:
+https://stackoverflow.com/questions/31235851/heroku-failed-to-install-gems-via-bundler
+
+had same issue shown above.
+
+  a) trying to bundle update and bundle install again and run git push heroku master -f but it's still not working.
+  
+  b)  also try delete my Gemfile.lock file, run bundle update and bundle install again, git add and git commit it and run git push heroku master -f but it also not working for me.
+  
+  c) Dev at bottom of page metioned shows this link
+  https://devcenter.heroku.com/articles/ruby-versions
+  
+  go to heroku and check logged files to see if not specifying the ruby version is causing the crash
+  
+  
+  
+  
+  
+  
+  
+  
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
