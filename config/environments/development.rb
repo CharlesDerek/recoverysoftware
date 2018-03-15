@@ -13,7 +13,7 @@ Rails.application.configure do
     :address => "smtp.gmail.com",
     :port => "587",
     :authentication => :plain,
-    :user_name => "do-not-reply@example.com",
+    :user_name => "do-not-reply@therecoveryunits.com",
     :password => ENV["SMTP_ENTRY"],
     :enable_starttls_auto => true
   }
@@ -29,7 +29,7 @@ Rails.application.configure do
   config.eager_load = false
   
   config.action_mailer.delivery_method = :test 
-  config.action_mailer.default_url_options = { :host => 'http://ruby-on-rails-123170.nitrousapp.com:3000'}
+  config.action_mailer.default_url_options = { :host => 'https://railsonapplications-charlesderek.c9users.io'}
 
   # Show full error reports and disable caching.
   config.consider_all_requests_local       = true

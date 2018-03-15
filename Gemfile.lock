@@ -1,11 +1,13 @@
 GIT
-  remote: git://github.com/rails/activerecord-session_store.git
-  revision: 7e483a6d6bd705b317ee7c9cee4ca6e419bf231e
+  remote: https://github.com/rails/activerecord-session_store.git
+  revision: a170dd4016208b9ce45cb77f2d946d2d7ef8064e
   specs:
-    activerecord-session_store (0.1.2)
-      actionpack (>= 4.0.0, < 5)
-      activerecord (>= 4.0.0, < 5)
-      railties (>= 4.0.0, < 5)
+    activerecord-session_store (1.1.1)
+      actionpack (>= 4.0)
+      activerecord (>= 4.0)
+      multi_json (~> 1.11, >= 1.11.2)
+      rack (>= 1.5.2, < 3)
+      railties (>= 4.0)
 
 GEM
   remote: https://rubygems.org/
@@ -222,4 +224,4 @@ DEPENDENCIES
   web-console (~> 2.0)
 
 BUNDLED WITH
-   1.10.5
+   1.16.1
